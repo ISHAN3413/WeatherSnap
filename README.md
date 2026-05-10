@@ -73,7 +73,7 @@ Weather parameters fetched:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/WeatherSnap.git
+git clone https://github.com/ISHAN3413/WeatherSnap.git
 
 # 2. Open in Android Studio
 File → Open → select the WeatherSnap folder

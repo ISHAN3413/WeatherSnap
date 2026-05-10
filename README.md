@@ -2,7 +2,6 @@
 
 A polished Android app that lets users search live weather for any city, capture photo evidence using a custom camera, compress images, annotate with notes, and save reports locally.
 
-Built as part of an Android Internship Assignment.
 
 ---
 
@@ -60,6 +59,20 @@ Weather parameters fetched:
 ---
 
 ## 🏗️ Project Structure
+com.oceanx.weathersnap/
+├── data/
+│   ├── api/          # Retrofit API interfaces
+│   ├── local/        # Room DB, DAO, Entity
+│   ├── model/        # Data models
+│   └── repository/   # Repository layer
+├── di/               # Hilt dependency injection
+├── ui/
+│   ├── components/   # Reusable composables
+│   ├── navigation/   # NavGraph
+│   ├── screen/       # 4 app screens
+│   ├── theme/        # Material 3 dark theme
+│   └── viewmodel/    # ViewModels + UI states
+└── util/             # ImageCompressor, WeatherCodeMapper
 ---
 
 ## 🚀 Setup & Run

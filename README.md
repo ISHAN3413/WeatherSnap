@@ -59,6 +59,7 @@ Weather parameters fetched:
 ---
 
 ## 🏗️ Project Structure
+```
 com.oceanx.weathersnap/
 ├── data/
 │   ├── api/          # Retrofit API interfaces
@@ -73,6 +74,7 @@ com.oceanx.weathersnap/
 │   ├── theme/        # Material 3 dark theme
 │   └── viewmodel/    # ViewModels + UI states
 └── util/             # ImageCompressor, WeatherCodeMapper
+```
 ---
 
 ## 🚀 Setup & Run
